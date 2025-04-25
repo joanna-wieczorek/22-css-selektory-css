@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    display: block;
+    background-color: beige;
+}
+
+p {
+    color: brown;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h3 {
+    color: beige;
+    background-color: brown;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 + h3 {
+    background-color: burlywood;
+}
